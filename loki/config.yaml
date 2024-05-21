@@ -37,12 +37,12 @@ querier:
   multi_tenant_queries_enabled: true
 ruler:
   rule_path: "/var/lib/loki/rules"
-  alertmanager_url: http://mimir:8080/alertmanager
+  alertmanager_url: http://mimir:9009/alertmanager
   remote_write:
     enabled: true
     clients:
       default:
-        url: http://mimir:8080/api/v1/push
+        url: http://mimir:9009/api/v1/push
   storage:
     type: s3
     s3:

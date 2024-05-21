@@ -8,7 +8,7 @@ datasources:
     url: http://loki:3100
     jsonData:
       maxLines: 1000
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
       derivedFields:
         - datasourceUid: tempo
           matcherRegex: traceID=(\w+)
@@ -32,7 +32,7 @@ datasources:
     url: http://loki:3100
     jsonData:
       maxLines: 1000
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
     secureJsonData:
       httpHeaderValue1: journal
   - uid: loki-all
@@ -43,7 +43,7 @@ datasources:
     url: http://loki:3100
     jsonData:
       maxLines: 1000
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
       manageAlerts: false
     secureJsonData:
       httpHeaderValue1: balthasar00|journal
