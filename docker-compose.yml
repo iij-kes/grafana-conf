@@ -79,7 +79,6 @@ services:
     command: ["--config.file=/etc/grafana/agent.yaml"]
 volumes:
   grafana-storage: {}
-  grafana2-storage: {}
   mimir-storage: {}
   minio-storage: {}
   loki-storage: {}

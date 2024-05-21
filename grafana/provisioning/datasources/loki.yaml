@@ -23,7 +23,7 @@ datasources:
           url: "${__value.raw}"
           urlDisplayLabel: ""
     secureJsonData:
-      httpHeaderValue1: keisuk-t
+      httpHeaderValue1: balthasar00
   - uid: loki-journal
     name: Loki.journal
     type: loki
@@ -46,4 +46,4 @@ datasources:
       httpHeaderName1: X-Scope-Orgid
       manageAlerts: false
     secureJsonData:
-      httpHeaderValue1: keisuk-t|journal
+      httpHeaderValue1: balthasar00|journal

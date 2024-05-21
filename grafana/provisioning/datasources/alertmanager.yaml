@@ -3,10 +3,10 @@ datasources:
   - name: Alertmanager
     uid: alertmanager
     type: alertmanager
-    url: http://mimir:8080/
+    url: http://mimir:9009/
     access: proxy
     editable: true
     jsonData:
       httpHeaderName1: X-Scope-Orgid
     secureJsonData:
-      httpHeaderValue1: keisuk-t
+      httpHeaderValue1: balthasar00
