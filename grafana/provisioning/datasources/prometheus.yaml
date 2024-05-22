@@ -7,7 +7,7 @@ datasources:
     isDefault: true
     editable: true
     jsonData:
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
       prometheusType: Mimir
     secureJsonData:
       httpHeaderValue1: balthasar00
@@ -18,7 +18,7 @@ datasources:
     access: proxy
     editable: true
     jsonData:
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
       prometheusType: Mimir
     secureJsonData:
       httpHeaderValue1: journal
@@ -29,7 +29,7 @@ datasources:
     access: proxy
     editable: true
     jsonData:
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
       prometheusType: Mimir
       manageAlerts: false
     secureJsonData:

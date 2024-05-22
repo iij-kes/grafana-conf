@@ -7,6 +7,6 @@ datasources:
     access: proxy
     editable: true
     jsonData:
-      httpHeaderName1: X-Scope-Orgid
+      httpHeaderName1: X-Scope-OrgID
     secureJsonData:
       httpHeaderValue1: balthasar00
